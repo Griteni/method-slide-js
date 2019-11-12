@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script async src="main2.js"></script>
+    <style>
+        section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        figure{
+            width: 700px;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            border: 2px solid black;
+            overflow: hidden;
+            height: 400px;
+        }
+        /* figure:first-child{
+            display: block;
+        } */
+        img{
+            width: 100%;
+            transition: all 15s;
+            position: relative;
+        }
+
+        @keyframes test{
+            0%{
+            transform: translateX(0);
+            }
+            10%, 20%{
+            transform: translateX(-700px);
+            }
+            30%, 40%{
+            transform: translateX(-1400px);
+            }
+            50%, 60%{
+            transform: translateX(-2100px);
+            }
+            70%, 80%{
+            transform: translateX(-2800px);
+            }
+            90%, 100%{
+            transform: translateX(-3500px);
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+        <section>
+                <h1 id='heading'>Ciao</h1>
+                <p id='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ab placeat voluptas quia voluptatum aspernatur autem iure rem culpa error, nam assumenda, deleniti eaque nulla suscipit, magni voluptatem beatae voluptates.
+                Tempora quasi, repellendus eligendi iure necessitatibus illum a optio tempore saepe eius ex, iste quia aspernatur velit ducimus sit cum ut dolor explicabo provident. Natus unde esse minus incidunt! Soluta.
+                Facilis beatae repellat harum ea maxime accusamus officia pariatur ullam dolorem laboriosam, veniam nulla provident iure architecto labore molestias perferendis incidunt dolores quos nesciunt, suscipit vitae reiciendis illum quibusdam? Nulla!
+                Corrupti quaerat reprehenderit molestias, sit esse accusantium natus sapiente repudiandae cumque at neque odit iure cupiditate expedita itaque impedit exercitationem doloremque. Vel magnam corrupti dolores explicabo maiores labore ipsam numquam?
+                Ipsum mollitia qui, non vero vel corporis distinctio accusamus optio iusto perspiciatis explicabo sed quis animi incidunt quaerat temporibus modi nobis! Unde hic odit ea? Vitae temporibus odio ipsam tenetur?
+                Corporis omnis alias nesciunt consectetur illum non placeat temporibus, expedita eius, cum ex reprehenderit earum necessitatibus, magnam nulla sunt dignissimos voluptatum ab incidunt similique vitae aperiam amet. Necessitatibus, neque numquam.
+                Hic quam tempora vel repellat, reiciendis impedit iure explicabo nihil molestiae error ratione corrupti sunt. Aliquid quasi omnis odio dicta, cumque modi. Voluptates iure facere officia maxime, rerum sapiente consequatur!
+                Suscipit, vero sapiente omnis, quam dicta ipsa molestiae fugiat odio magni, molestias delectus at. Nisi deserunt eos non doloribus, exercitationem dolor sed cupiditate quia laboriosam dicta? Ipsa labore rem suscipit?
+                Quidem at architecto modi laudantium neque, consequatur cupiditate obcaecati cumque perferendis accusamus tenetur totam eos doloremque numquam quis in incidunt deleniti saepe, animi sapiente fugiat? Error magnam inventore reiciendis labore.
+                Pariatur culpa at ipsum dolor ut suscipit, eius exercitationem, nostrum reiciendis repellendus ipsam libero esse? Consequuntur quisquam, quidem dignissimos perferendis iure non iste qui officiis quaerat! A omnis officiis nemo!
+            </p>
+        
+            <figure>
+                <img src="https://picsum.photos/700/400/?image=0" alt="img1">
+                <img src="https://picsum.photos/700/400/?image=1" alt="img2">
+                <img src="https://picsum.photos/700/400/?image=2" alt="img3">
+                <img src="https://picsum.photos/700/400/?image=3" alt="img4">
+                <img src="https://picsum.photos/700/400/?image=4" alt="img5">
+            </figure>
+        </section>
+        
+</body>
+</html>
